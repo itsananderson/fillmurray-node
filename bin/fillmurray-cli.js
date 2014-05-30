@@ -4,9 +4,6 @@ var program = require('commander');
     pkg = require('../package.json'),
     placebase = require('placebase');
 
-var i, curArg, size,
-    sizes = [];
-
 program
     .version(pkg.version)
     .option('-d, --directory <path>', 'Directory to output images into. Defaults to current directory', '.')
